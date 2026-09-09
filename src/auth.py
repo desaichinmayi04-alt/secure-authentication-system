@@ -28,7 +28,7 @@ class AuthenticationSystem:
 
     def init_database(self):
         os.makedirs('data', exist_ok=True)
-        conn = sqlite3.connect('data/users.db')
+        conn = sqlite3.connect('data/users.db', check_same_thread=False)
         cursor = conn.cursor()
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS users (
