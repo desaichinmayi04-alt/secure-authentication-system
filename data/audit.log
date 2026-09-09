@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-09T04:14:16.852469", "event_type": "REGISTRATION", "username": "testuser", "status": "SUCCESS", "details": "User registered"}
+{"timestamp": "2026-09-09T04:14:53.575415", "event_type": "LOGIN", "username": "testuser", "status": "SUCCESS", "details": "User logged in"}
